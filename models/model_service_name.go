@@ -47,4 +47,5 @@ const (
 	ServiceName_NCHF_CONVERGEDCHARGING    ServiceName = "nchf-convergedcharging"
 	ServiceName_NNWDAF_EVENTSSUBSCRIPTION ServiceName = "nnwdaf-eventssubscription"
 	ServiceName_NNWDAF_ANALYTICSINFO      ServiceName = "nnwdaf-analyticsinfo"
+	ServiceName_NETAF_TRACK               ServiceName = "netaf-track"
 )
