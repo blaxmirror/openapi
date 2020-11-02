@@ -61,6 +61,8 @@ func (a *AmfStatusChangeCallbackDocumentApiService) AmfStatusChangeNotify(ctx co
 	}
 	switch localVarHttpResponse.StatusCode {
 
+	case 200:
+		return localVarHttpResponse, err
 	case 204:
 		return localVarHttpResponse, err
 	case 400:
